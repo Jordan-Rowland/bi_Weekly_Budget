@@ -4,10 +4,10 @@ os.chdir('D:\\Documents\\Budget\\')
 
 def budget(check, date):
     # Monthly expenses, flat fees are divided by 2 for bi-weekly paychecks
-    outcome = {'Rent': 850 / 2, 'Utilities': 100 / 2,
-               'Therapy': 120 / 2, 'Healthcare': 100 / 2,
+    outcome = {'Rent':  / 2, 'Utilities':  / 2,
+               'Healthcare':  / 2,
                'Groceries/Food': check * .05, 'Transportation': 50,
-               'Entertainment': check * .08, 'Savings': check * .1}
+               'Entertainment': check * .08, 'Savings': check * #}
     vAdjust = 0
 
     # Loops through items in budget, prints each one, the shows total cost, and replaining budget
@@ -36,4 +36,4 @@ def budget(check, date):
     sys.stdout.close()
 
 # Call functions
-budget(1380, 'Mar-19')
+budget(###, 'Mar-19')
